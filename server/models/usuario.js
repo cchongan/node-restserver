@@ -29,7 +29,7 @@ let usuarioSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        default: 'USEER_ROLE',
+        default: 'USER_ROLE',
         enum: rolesValidos
     },
     estado: {
